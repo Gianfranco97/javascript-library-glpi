@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ "$CIRCLE_BRANCH" = "develop" ] 
+if [ "$CIRCLE_BRANCH" = "feature/update-emails" ] 
 then
     source ci/scripts/build_develop.sh
 fi
